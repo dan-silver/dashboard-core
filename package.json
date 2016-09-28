@@ -1,0 +1,15 @@
+{
+  "name": "social-dashboard-core",
+  "version": "1.0.0",
+  "description": "Core defaults, definitions for sources and options",
+  "main": "defaults.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "tsc && node defaults"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.0.3"
+  }
+}

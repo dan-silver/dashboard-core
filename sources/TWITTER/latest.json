@@ -1,0 +1,8 @@
+{
+    "version": 1,
+    "humanName": "Twitter",
+    "enabledByDefault": true,
+    "defaultData": {
+        "topics": ["election", "cnn"]
+    }
+}
