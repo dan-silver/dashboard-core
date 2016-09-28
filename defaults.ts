@@ -22,7 +22,10 @@ loadSourcesOrOptions(sources, "sources");
 
 
 const fs = require('fs');
+// browser version
 fs.writeFileSync('./defaultsBrowser.js', "var defaults = " + JSON.stringify(core) , 'utf-8');
+
+// pretty json file with indentation
 fs.writeFileSync('./data.json', JSON.stringify(core, null, 4) , 'utf-8'); 
 
 
