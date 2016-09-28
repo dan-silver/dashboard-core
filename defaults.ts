@@ -16,3 +16,7 @@ for (let source of sources) {
 
 const fs = require('fs');
 fs.writeFileSync('./data.json', JSON.stringify(core, null, 4) , 'utf-8'); 
+
+
+
+module.exports = core;
