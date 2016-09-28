@@ -1,3 +1,6 @@
+/// <reference path="./typings/index.d.ts" />
+
+
 let core = {
     options: {},
     sources: {}

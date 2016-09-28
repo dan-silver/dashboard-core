@@ -37,6 +37,12 @@
         "WEATHER": {
             "humanName": "Weather",
             "enabledByDefault": false,
+            "defaultData": {
+                "lat": 41.8781136,
+                "lng": -87.62979819999998,
+                "formatted_address": "Chicago, IL, USA",
+                "id": "53eeb015d61056c54245a909c79862532fc953ad"
+            },
             "version": 1
         }
     }
