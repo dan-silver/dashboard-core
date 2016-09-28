@@ -22,8 +22,8 @@ loadSourcesOrOptions(sources, "sources");
 
 
 const fs = require('fs');
+fs.writeFileSync('./defaultsBrowser.js', "var defaults = " + JSON.stringify(core) , 'utf-8');
 fs.writeFileSync('./data.json', JSON.stringify(core, null, 4) , 'utf-8'); 
-
 
 
 module.exports = core;

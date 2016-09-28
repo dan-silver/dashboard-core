@@ -1,0 +1,18 @@
+{
+  "name": "social-dashboard-core",
+  "description": "Core defaults, definitions for sources and options",
+  "main": "defaults.js",
+  "authors": [
+    "Dan Silver <dannysilver3@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dan-silver/dashboard-core",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
