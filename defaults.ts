@@ -23,13 +23,4 @@ loadSourcesOrOptions(options, "options");
 let sources = [["TWITTER", 1], ["WEATHER", 1]];
 loadSourcesOrOptions(sources, "sources");
 
-
-const fs = require('fs');
-// browser version
-fs.writeFileSync('./dist/defaultsBrowser.js', "var defaults = " + JSON.stringify(core) , 'utf-8');
-
-// pretty json file with indentation
-fs.writeFileSync('./dist/data.json', JSON.stringify(core, null, 4) , 'utf-8'); 
-
-
 module.exports = core;
