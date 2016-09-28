@@ -8,7 +8,7 @@ let core = {
 
 function loadSourcesOrOptions(dataArr, dirName) {
     for (let [sourceName, sourceVersion] of dataArr) {
-        core[dirName][sourceName] = require(`./${dirName}/${sourceName}/${sourceVersion}`);
+        core[dirName][sourceName] = require(`../${dirName}/${sourceName}/${sourceVersion}`);
         core[dirName][sourceName].version = sourceVersion;
     }
 }

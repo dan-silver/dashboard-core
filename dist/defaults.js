@@ -6,7 +6,7 @@ var core = {
 function loadSourcesOrOptions(dataArr, dirName) {
     for (var _i = 0, dataArr_1 = dataArr; _i < dataArr_1.length; _i++) {
         var _a = dataArr_1[_i], sourceName = _a[0], sourceVersion = _a[1];
-        core[dirName][sourceName] = require("./" + dirName + "/" + sourceName + "/" + sourceVersion);
+        core[dirName][sourceName] = require("../" + dirName + "/" + sourceName + "/" + sourceVersion);
         core[dirName][sourceName].version = sourceVersion;
     }
 }
