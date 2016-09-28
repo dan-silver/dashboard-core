@@ -4,8 +4,7 @@
   "description": "Core defaults, definitions for sources and options",
   "main": "defaults.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "tsc && node defaults"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
