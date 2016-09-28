@@ -3,6 +3,7 @@
         "module": "commonjs",
         "noImplicitAny": false,
         "removeComments": false,
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir": "dist/"
     }
 }

@@ -2,7 +2,7 @@
   "name": "social-dashboard-core",
   "version": "1.0.0",
   "description": "Core defaults, definitions for sources and options",
-  "main": "defaults.js",
+  "main": "dist/defaults.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
