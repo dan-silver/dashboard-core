@@ -4,7 +4,7 @@ let core = {
 }
 
 // load latest options
-core.options["BACKGROUND"] = require("./options/BACKGROUND/1");
+core.options["BACKGROUND"] = require("./options/BACKGROUND/latest");
 
 
 // load latest sources
