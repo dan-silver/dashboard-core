@@ -25,6 +25,7 @@
     "sources": {
         "TWITTER": {
             "humanName": "Twitter",
+            "requiredAuthProviders": "twitter",
             "enabledByDefault": true,
             "defaultData": {
                 "topics": [

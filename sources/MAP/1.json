@@ -1,0 +1,21 @@
+{
+    "humanName": "Map",
+    "enabledByDefault": false,
+    "defaultData": {
+        "showDirections": false,
+        "zoom": 10,
+        "showTraffic": true,
+        "startingLocation": {
+            "lat" : 41.8781136,
+            "lng" : -87.62979819999998,
+            "formatted_address" : "Chicago, IL, USA",
+            "id" : "53eeb015d61056c54245a909c79862532fc953ad"
+        },
+        "endingLocation": {
+            "lat" : 38.9071923,
+            "lng" : -77.03687070000001,
+            "formatted_address" : "Washington, DC, USA",
+            "id" : "49c0cb4aa94c88be75611d5c80f29cf05d55a340"
+        }
+    }
+}

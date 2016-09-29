@@ -1,5 +1,6 @@
 {
     "humanName": "Twitter",
+    "requiredAuthProviders": "twitter",
     "enabledByDefault": true,
     "defaultData": {
         "topics": ["election", "cnn"]
