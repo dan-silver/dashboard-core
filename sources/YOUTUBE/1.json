@@ -1,5 +1,6 @@
 {
     "humanName": "YouTube",
+    "requiredAuthScopes": ["https://www.googleapis.com/auth/youtube.readonly"],
     "enabledByDefault": false,
     "defaultData": {
         "playlistId": null,

@@ -25,7 +25,9 @@
     "sources": {
         "TWITTER": {
             "humanName": "Twitter",
-            "requiredAuthProviders": "twitter",
+            "requiredAuthScopes": [
+                "twitter"
+            ],
             "enabledByDefault": true,
             "defaultData": {
                 "topics": [
@@ -48,6 +50,9 @@
         },
         "YOUTUBE": {
             "humanName": "YouTube",
+            "requiredAuthScopes": [
+                "https://www.googleapis.com/auth/youtube.readonly"
+            ],
             "enabledByDefault": false,
             "defaultData": {
                 "playlistId": null,

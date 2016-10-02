@@ -1,6 +1,6 @@
 {
     "humanName": "Twitter",
-    "requiredAuthProviders": "twitter",
+    "requiredAuthScopes": ["twitter"],
     "enabledByDefault": true,
     "defaultData": {
         "topics": ["election", "cnn"]
