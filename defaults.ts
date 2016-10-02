@@ -18,7 +18,7 @@ loadSourcesOrOptions(options, "options");
 
 
 // load latest sources
-let sources = [["TWITTER", 1], ["WEATHER", 1], ["YOUTUBE", 1]];
+let sources = [["TWITTER", 1], ["WEATHER", 1], ["YOUTUBE", 1], ["GOOGLE_CALENDAR", 1]];
 loadSourcesOrOptions(sources, "sources");
 for (let [sourceName, sourceVersion] of core["sources"]) {
     core["sources"][sourceName].position = null;

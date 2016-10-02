@@ -1,0 +1,7 @@
+{
+    "humanName": "Google Calendar",
+    "requiredAuthScopes": ["https://www.googleapis.com/auth/calendar.readonly"],
+    "enabledByDefault": false,
+    "defaultData": {
+    }
+}

@@ -81,6 +81,15 @@
                 }
             },
             "version": 1
+        },
+        "GOOGLE_CALENDAR": {
+            "humanName": "Google Calendar",
+            "requiredAuthScopes": [
+                "https://www.googleapis.com/auth/calendar.readonly"
+            ],
+            "enabledByDefault": false,
+            "defaultData": {},
+            "version": 1
         }
     },
     "layouts": {
