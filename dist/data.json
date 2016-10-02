@@ -20,6 +20,10 @@
                 }
             },
             "version": 1
+        },
+        "LAYOUT": {
+            "layout": "3-col",
+            "version": 1
         }
     },
     "sources": {
