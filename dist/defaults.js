@@ -1,9 +1,7 @@
 /// <reference path="./typings/index.d.ts" />
-var core = {
-    options: {},
-    sources: {}
-};
+var core = {};
 function loadSourcesOrOptions(dataArr, dirName) {
+    core[dirName] = {};
     for (var _i = 0, dataArr_1 = dataArr; _i < dataArr_1.length; _i++) {
         var _a = dataArr_1[_i], sourceName = _a[0], sourceVersion = _a[1];
         core[dirName][sourceName] = require("../" + dirName + "/" + sourceName + "/" + sourceVersion);
@@ -16,5 +14,8 @@ loadSourcesOrOptions(options, "options");
 // load latest sources
 var sources = [["TWITTER", 1], ["WEATHER", 1], ["YOUTUBE", 1]];
 loadSourcesOrOptions(sources, "sources");
+// load layouts
+var layouts = [["3-col", 1], ["4-col", 1]];
+loadSourcesOrOptions(layouts, "layouts");
 module.exports = core;
 //# sourceMappingURL=defaults.js.map

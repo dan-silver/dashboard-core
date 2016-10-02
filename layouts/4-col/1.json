@@ -1,0 +1,19 @@
+{
+    "human_name": "4 Column",
+    "left-column": {
+        "value": 0,
+        "human_name": "Left Column"
+    },
+    "left-midle-column": {
+        "value": 1,
+        "human_name": "Inner-Left Column"
+    },
+    "right-middle-column": {
+        "value": 2,
+        "human_name": "Inner-Right Column"
+    },
+    "right-column": {
+        "value": 3,
+        "human_name": "Right Column"
+    }
+}

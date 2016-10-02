@@ -1,0 +1,15 @@
+{
+    "human_name": "3 Column",
+    "left-column": {
+        "value": 0,
+        "human_name": "Left Column"
+    },
+    "midle-column": {
+        "value": 1,
+        "human_name": "Middle Column"
+    },
+    "right-column": {
+        "value": 2,
+        "human_name": "Right Column"
+    }
+}
