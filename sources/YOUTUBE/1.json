@@ -5,5 +5,15 @@
     "defaultData": {
         "playlistId": null,
         "thumbnailUrl": null 
+    },
+    "types": {
+        "PLAYLIST": {
+            "value": 0,
+            "human_name": "Playlist"
+        },
+        "VIDEO": {
+            "value": 1,
+            "human_name": "Video"
+        }
     }
 }
