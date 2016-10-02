@@ -55,8 +55,16 @@
             ],
             "enabledByDefault": false,
             "defaultData": {
-                "playlistId": null,
-                "thumbnailUrl": null
+                "type": 1,
+                "video": {
+                    "id": "S3GDVqcg2mc",
+                    "title": "Matt Lauer: A Complete Disgrace to Journalism"
+                },
+                "playlist": {
+                    "id": null,
+                    "thumbnailUrl": null,
+                    "name": ""
+                }
             },
             "types": {
                 "PLAYLIST": {
