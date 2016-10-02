@@ -88,7 +88,9 @@
                 "https://www.googleapis.com/auth/calendar.readonly"
             ],
             "enabledByDefault": false,
-            "defaultData": {},
+            "defaultData": {
+                "ids": []
+            },
             "version": 1
         }
     },
