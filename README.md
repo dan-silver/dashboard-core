@@ -1,3 +1,6 @@
 # Nothing interesting here yet, please move along...
 
 > I made this public since I'm using it in build scripts and don't want to setup keys...
+```
+npm run gen
+```

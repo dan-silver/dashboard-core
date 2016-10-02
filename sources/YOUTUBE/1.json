@@ -1,0 +1,8 @@
+{
+    "humanName": "YouTube",
+    "enabledByDefault": false,
+    "defaultData": {
+        "playlistId": null,
+        "thumbnailUrl": null 
+    }
+}

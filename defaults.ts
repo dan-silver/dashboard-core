@@ -20,7 +20,7 @@ loadSourcesOrOptions(options, "options");
 
 
 // load latest sources
-let sources = [["TWITTER", 1], ["WEATHER", 1]];
+let sources = [["TWITTER", 1], ["WEATHER", 1], ["YOUTUBE", 1]];
 loadSourcesOrOptions(sources, "sources");
 
 module.exports = core;

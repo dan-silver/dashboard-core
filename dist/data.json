@@ -45,6 +45,15 @@
                 "id": "53eeb015d61056c54245a909c79862532fc953ad"
             },
             "version": 1
+        },
+        "YOUTUBE": {
+            "humanName": "YouTube",
+            "enabledByDefault": false,
+            "defaultData": {
+                "playlistId": null,
+                "thumbnailUrl": null
+            },
+            "version": 1
         }
     }
 }

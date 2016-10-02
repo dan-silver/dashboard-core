@@ -14,7 +14,7 @@ function loadSourcesOrOptions(dataArr, dirName) {
 var options = [["BACKGROUND", 1]];
 loadSourcesOrOptions(options, "options");
 // load latest sources
-var sources = [["TWITTER", 1], ["WEATHER", 1]];
+var sources = [["TWITTER", 1], ["WEATHER", 1], ["YOUTUBE", 1]];
 loadSourcesOrOptions(sources, "sources");
 module.exports = core;
 //# sourceMappingURL=defaults.js.map

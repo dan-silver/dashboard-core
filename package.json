@@ -4,6 +4,7 @@
   "description": "Core defaults, definitions for sources and options",
   "main": "dist/defaults.js",
   "scripts": {
+    "gen": "tsc && node dist/genDataFiles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
