@@ -10,7 +10,7 @@
             "value": 2,
             "human_name": "Image from URL",
             "input_label": "Image URL",
-            "default": "https://pixabay.com/static/uploads/photo/2016/01/24/20/00/plant-1159544_960_720.jpg"
+            "default": "backgrounds/29.jpg"
         },
         "SLIDESHOW": {
             "value": 3,
