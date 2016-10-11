@@ -12,11 +12,12 @@
                     "value": 2,
                     "human_name": "Image from URL",
                     "input_label": "Image URL",
-                    "default": "backgrounds/29.jpg"
+                    "default": "https://pixabay.com/static/uploads/photo/2016/01/24/20/00/plant-1159544_960_720.jpg"
                 },
                 "SLIDESHOW": {
                     "value": 3,
-                    "human_name": "Slideshow with popular images"
+                    "human_name": "Slideshow with popular images",
+                    "speed": 10
                 }
             },
             "version": 1
