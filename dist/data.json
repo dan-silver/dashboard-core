@@ -33,7 +33,7 @@
             "requiredAuthScopes": [
                 "twitter"
             ],
-            "enabledByDefault": true,
+            "enabledByDefault": false,
             "defaultData": {
                 "topics": [
                     "election",
@@ -44,7 +44,7 @@
         },
         "WEATHER": {
             "humanName": "Weather",
-            "enabledByDefault": false,
+            "enabledByDefault": true,
             "defaultData": {
                 "lat": 41.8781136,
                 "lng": -87.62979819999998,
