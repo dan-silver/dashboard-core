@@ -1,5 +1,5 @@
 {
-    "humanName": "Countdown",
+    "humanName": "Countdown timer",
     "requiredAuthScopes": [],
     "enabledByDefault": true,
     "defaultData": {

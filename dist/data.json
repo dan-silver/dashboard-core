@@ -95,7 +95,7 @@
             "version": 1
         },
         "COUNTDOWN": {
-            "humanName": "Countdown",
+            "humanName": "Countdown timer",
             "requiredAuthScopes": [],
             "enabledByDefault": true,
             "defaultData": {
