@@ -96,10 +96,8 @@
         },
         "COUNTDOWN": {
             "humanName": "Countdown",
-            "requiredAuthScopes": [
-                "https://www.googleapis.com/auth/calendar.readonly"
-            ],
-            "enabledByDefault": false,
+            "requiredAuthScopes": [],
+            "enabledByDefault": true,
             "defaultData": {
                 "timers": [
                     {
