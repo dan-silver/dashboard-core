@@ -6,7 +6,8 @@
         "timers": [
           {
             "text": "New Year's Day",
-            "datetime": "Jan 01 2017 00:00:00"
+            "datetime": "Jan 01 2017 00:00:00",
+            "id": 0
           }
         ]
     }
