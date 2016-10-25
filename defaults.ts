@@ -13,7 +13,12 @@ function loadSourcesOrOptions(dataArr, dirName) {
 
 
 // load latest options
-let options = [["BACKGROUND", 1], ["LAYOUT", 1]];
+let options = [
+    ["BACKGROUND", 1],
+    ["LAYOUT", 1],
+    ["THEME", 1]
+];
+
 loadSourcesOrOptions(options, "options");
 
 

@@ -9,7 +9,11 @@ function loadSourcesOrOptions(dataArr, dirName) {
     }
 }
 // load latest options
-var options = [["BACKGROUND", 1], ["LAYOUT", 1]];
+var options = [
+    ["BACKGROUND", 1],
+    ["LAYOUT", 1],
+    ["THEME", 1]
+];
 loadSourcesOrOptions(options, "options");
 // load latest sources
 var sources = [

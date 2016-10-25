@@ -25,6 +25,26 @@
         "LAYOUT": {
             "layout": "auto",
             "version": 1
+        },
+        "THEME": {
+            "humanName": "Theme",
+            "static": {
+                "textColor": {
+                    "humanName": "Text color"
+                },
+                "widgetBackgroundColor": {
+                    "humanName": "Tile background color"
+                },
+                "widgetOpacity": {
+                    "humanName": "Widget Opacity"
+                }
+            },
+            "defaultData": {
+                "widgetOpacity": 0.85,
+                "widgetBackgroundColor": "rgb(255, 255, 255)",
+                "textColor": "#333"
+            },
+            "version": 1
         }
     },
     "sources": {
