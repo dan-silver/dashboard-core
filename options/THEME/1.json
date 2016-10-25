@@ -14,7 +14,7 @@
 
     "defaultData": {
       "widgetOpacity": 0.85,
-      "widgetBackgroundColor": "rgb(255, 255, 255)",
+      "widgetBackgroundColor": "#ffffff",
       "textColor": "#333"
     }
 }

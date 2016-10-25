@@ -1,24 +1,28 @@
 {
     "options": {
         "BACKGROUND": {
-            "options": {
+            "humanName": "Background",
+            "static": {
                 "COLOR": {
                     "value": 1,
                     "human_name": "Color",
-                    "default": "#091525",
                     "input_label": "Choose a color"
                 },
                 "IMAGE_URL": {
                     "value": 2,
                     "human_name": "Image from URL",
-                    "input_label": "Image URL",
-                    "default": "https://pixabay.com/static/uploads/photo/2016/01/24/20/00/plant-1159544_960_720.jpg"
+                    "input_label": "Image URL"
                 },
                 "SLIDESHOW": {
                     "value": 3,
-                    "human_name": "Slideshow with popular images",
-                    "speed": 10
+                    "human_name": "Slideshow with popular images"
                 }
+            },
+            "defaultData": {
+                "type": 3,
+                "imageURL": "https://pixabay.com/static/uploads/photo/2016/01/24/20/00/plant-1159544_960_720.jpg",
+                "color": "#091525",
+                "slideshowSpeed": 10
             },
             "version": 1
         },
@@ -41,7 +45,7 @@
             },
             "defaultData": {
                 "widgetOpacity": 0.85,
-                "widgetBackgroundColor": "rgb(255, 255, 255)",
+                "widgetBackgroundColor": "#ffffff",
                 "textColor": "#333"
             },
             "version": 1
