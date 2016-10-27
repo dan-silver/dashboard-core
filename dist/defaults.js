@@ -21,7 +21,9 @@ var sources = [
     ["WEATHER", 1],
     ["YOUTUBE", 1],
     ["GOOGLE_CALENDAR", 1],
-    ["COUNTDOWN", 1]
+    ["COUNTDOWN", 1],
+    ["RSS", 1],
+    ["CLOCK", 1]
 ];
 loadSourcesOrOptions(sources, "sources");
 for (var _i = 0, _a = core["sources"]; _i < _a.length; _i++) {

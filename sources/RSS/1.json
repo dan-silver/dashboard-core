@@ -1,0 +1,13 @@
+{
+    "humanName": "RSS Feed",
+    "requiredAuthScopes": [],
+    "enabledByDefault": true,
+    "options": {
+      "urls": {
+        "humanName": "Feed URL"
+      }
+    },
+    "defaultData": {
+        "urls": ["http://rss.cnn.com/rss/cnn_topstories.rss"]
+    }
+}

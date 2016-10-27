@@ -132,6 +132,40 @@
                 ]
             },
             "version": 1
+        },
+        "RSS": {
+            "humanName": "RSS Feed",
+            "requiredAuthScopes": [],
+            "enabledByDefault": true,
+            "options": {
+                "urls": {
+                    "humanName": "Feed URL"
+                }
+            },
+            "defaultData": {
+                "urls": [
+                    "http://rss.cnn.com/rss/cnn_topstories.rss"
+                ]
+            },
+            "version": 1
+        },
+        "CLOCK": {
+            "humanName": "Clock",
+            "requiredAuthScopes": [],
+            "enabledByDefault": true,
+            "options": {
+                "24_hour_mode": {
+                    "humanName": "24 hour clock"
+                },
+                "show_date": {
+                    "humanName": "Show date"
+                }
+            },
+            "defaultData": {
+                "show_date": true,
+                "24_hour_mode": false
+            },
+            "version": 1
         }
     },
     "layouts": {

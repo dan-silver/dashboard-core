@@ -28,7 +28,9 @@ let sources = [
     ["WEATHER", 1],
     ["YOUTUBE", 1],
     ["GOOGLE_CALENDAR", 1],
-    ["COUNTDOWN", 1]
+    ["COUNTDOWN", 1],
+    ["RSS", 1],
+    ["CLOCK", 1]
 ];
 
 loadSourcesOrOptions(sources, "sources");

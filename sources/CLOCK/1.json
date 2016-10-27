@@ -1,0 +1,17 @@
+{
+    "humanName": "Clock",
+    "requiredAuthScopes": [],
+    "enabledByDefault": true,
+    "options": {
+      "24_hour_mode": {
+        "humanName": "24 hour clock"
+      },
+      "show_date": {
+        "humanName": "Show date"
+      }
+    },
+    "defaultData": {
+        "show_date": true,
+        "24_hour_mode": false
+    }
+}
