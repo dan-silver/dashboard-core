@@ -1,13 +1,18 @@
 {
-    "humanName": "RSS Feed",
-    "requiredAuthScopes": [],
-    "enabledByDefault": true,
-    "options": {
-      "urls": {
-        "humanName": "Feed URL"
-      }
-    },
-    "defaultData": {
-        "urls": ["http://rss.cnn.com/rss/cnn_topstories.rss"]
+  "humanName": "RSS Feed",
+  "requiredAuthScopes": [],
+  "enabledByDefault": true,
+  "options": {
+    "urls": {
+      "humanName": "Feed URL"
     }
+  },
+  "defaultData": {
+    "feeds": [
+      {
+        "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+        "id": "dfgdf879dfg"
+      }
+    ]
+  }
 }

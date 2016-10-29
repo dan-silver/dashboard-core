@@ -11,7 +11,6 @@
       }
     },
     "defaultData": {
-        "show_date": true,
-        "24_hour_mode": false
+        "show_date": true
     }
 }

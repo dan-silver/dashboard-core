@@ -143,8 +143,11 @@
                 }
             },
             "defaultData": {
-                "urls": [
-                    "http://rss.cnn.com/rss/cnn_topstories.rss"
+                "feeds": [
+                    {
+                        "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+                        "id": "dfgdf879dfg"
+                    }
                 ]
             },
             "version": 1
@@ -162,8 +165,7 @@
                 }
             },
             "defaultData": {
-                "show_date": true,
-                "24_hour_mode": false
+                "show_date": true
             },
             "version": 1
         }
