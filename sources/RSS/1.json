@@ -10,7 +10,7 @@
   "defaultData": {
     "feeds": [
       {
-        "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+        "url": "http://rss.nytimes.com/services/xml/rss/nyt/InternationalHome.xml",
         "id": "dfgdf879dfg"
       }
     ]
