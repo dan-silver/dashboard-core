@@ -1,0 +1,13 @@
+{
+    "humanName": "Cards",
+    "static": {
+        "speed": {
+            "human_name": "Card rotation speed (seonds)",
+            "hint": "How often should we rotate the cards?",
+            "options": [5, 10, 15, 20]
+        }
+    },
+    "defaultData": {
+        "speed": 10
+    }
+}

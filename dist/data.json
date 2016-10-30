@@ -49,6 +49,25 @@
                 "textColor": "#333"
             },
             "version": 1
+        },
+        "CARDS": {
+            "humanName": "Cards",
+            "static": {
+                "speed": {
+                    "human_name": "Card rotation speed (seonds)",
+                    "hint": "How often should we rotate the cards?",
+                    "options": [
+                        5,
+                        10,
+                        15,
+                        20
+                    ]
+                }
+            },
+            "defaultData": {
+                "speed": 10
+            },
+            "version": 1
         }
     },
     "sources": {
@@ -145,7 +164,7 @@
             "defaultData": {
                 "feeds": [
                     {
-                        "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+                        "url": "http://rss.nytimes.com/services/xml/rss/nyt/InternationalHome.xml",
                         "id": "dfgdf879dfg"
                     }
                 ]

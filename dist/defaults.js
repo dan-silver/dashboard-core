@@ -12,7 +12,8 @@ function loadSourcesOrOptions(dataArr, dirName) {
 var options = [
     ["BACKGROUND", 1],
     ["LAYOUT", 1],
-    ["THEME", 1]
+    ["THEME", 1],
+    ["CARDS", 1]
 ];
 loadSourcesOrOptions(options, "options");
 // load latest sources
