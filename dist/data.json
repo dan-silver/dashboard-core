@@ -230,5 +230,13 @@
             },
             "version": 1
         }
+    },
+    "authSources": {
+        "google": {
+            "human_name": "Google"
+        },
+        "twitter": {
+            "human_name": "Twitter"
+        }
     }
 }

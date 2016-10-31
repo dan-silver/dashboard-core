@@ -1,4 +1,5 @@
 /// <reference path="./typings/index.d.ts" />
+var authSources = require('../authSources');
 var core = {};
 function loadSourcesOrOptions(dataArr, dirName) {
     core[dirName] = {};
@@ -34,5 +35,6 @@ for (var _i = 0, _a = core["sources"]; _i < _a.length; _i++) {
 // load layouts
 var layouts = [["auto", 1], ["3-col", 1], ["4-col", 1]];
 loadSourcesOrOptions(layouts, "layouts");
+core['authSources'] = authSources;
 module.exports = core;
 //# sourceMappingURL=defaults.js.map

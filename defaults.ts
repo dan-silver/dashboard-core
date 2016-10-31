@@ -1,5 +1,6 @@
 /// <reference path="./typings/index.d.ts" />
 
+const authSources = require('../authSources');
 
 let core = {}
 
@@ -44,5 +45,7 @@ for (let [sourceName, sourceVersion] of core["sources"]) {
 // load layouts
 let layouts = [["auto", 1], ["3-col", 1], ["4-col", 1]];
 loadSourcesOrOptions(layouts, "layouts");
+
+core['authSources'] = authSources;
 
 module.exports = core;
