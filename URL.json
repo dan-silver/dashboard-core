@@ -1,8 +1,12 @@
 {
-  "DEV_DASH_MAIN": "http://localhost:3000/",
-  "DEV_DASH_DATA": "http://localhost:4000/",
-  "DEV_DASH_VIEW": "http://localhost:5000/",
-  "PROD_DASH_MAIN": "http://dashboard-everywhere-web-app.ad64986e.svc.dockerapp.io/",
-  "PROD_DASH_DATA": "http://dash-data.e4d60002.svc.dockerapp.io:4000/",
-  "PROD_DASH_VIEW": "http://dash-view.f2d9e64c.svc.dockerapp.io/"
+  "DEV": {
+    "DASH_MAIN": "http://localhost:3000/",
+    "DASH_DATA": "http://localhost:4000/",
+    "DASH_VIEW": "http://localhost:5000/"
+  },
+  "PROD": {
+    "DASH_MAIN": "http://dashboard-everywhere-web-app.ad64986e.svc.dockerapp.io/",
+    "DASH_DATA": "http://dash-data.e4d60002.svc.dockerapp.io:4000/",
+    "DASH_VIEW": "http://dash-view.f2d9e64c.svc.dockerapp.io/"
+  }
 }
