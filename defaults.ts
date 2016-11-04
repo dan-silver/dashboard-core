@@ -48,4 +48,8 @@ loadSourcesOrOptions(layouts, "layouts");
 
 core['authSources'] = authSources;
 
+
+// URLs
+core['URL'] = require("../URL");
+
 module.exports = core;

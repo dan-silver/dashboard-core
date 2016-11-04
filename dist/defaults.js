@@ -36,5 +36,7 @@ for (var _i = 0, _a = core["sources"]; _i < _a.length; _i++) {
 var layouts = [["auto", 1], ["3-col", 1], ["4-col", 1]];
 loadSourcesOrOptions(layouts, "layouts");
 core['authSources'] = authSources;
+// URLs
+core['URL'] = require("../URL");
 module.exports = core;
 //# sourceMappingURL=defaults.js.map
